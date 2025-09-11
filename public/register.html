@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create account — ThinkLink’s PCs</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="auth-bg">
+  <header class="navbar glass">
+    <div class="brand">
+      <img src="images/logo.png" alt="ThinkLink’s PCs" class="logo"/>
+      <span class="brand-name">ThinkLink’s PCs</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="refurb.html">Refurb PCs</a>
+      <a href="sell.html" class="cta-btn">Sell to Us</a>
+    </nav>
+  </header>
+
+  <main class="auth-wrap">
+    <div class="auth card">
+      <h2>Create your account</h2>
+      <form id="register-form">
+        <input type="email" id="reg-email" placeholder="Email" required/>
+        <input type="text" id="reg-username" placeholder="Username" required/>
+        <input type="password" id="reg-password" placeholder="Password" required/>
+        <label class="field-label">Date of birth</label>
+        <input type="date" id="dob" required/>
+        <button type="submit" class="btn large">Register</button>
+      </form>
+      <p class="muted tiny">Already have an account? <a href="login.html" class="link">Sign in</a></p>
+    </div>
+  </main>
+
+  <footer class="glass footer">
+    <p class="tiny muted">© 2025 ThinkLink’s PCs.</p>
+  </footer>
+
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

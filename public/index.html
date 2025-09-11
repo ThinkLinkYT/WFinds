@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ThinkLink’s PCs — Repair, Flip, Buy</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar glass">
+    <div class="brand">
+      <img src="images/logo.png" alt="ThinkLink’s PCs" class="logo"/>
+      <span class="brand-name">ThinkLink’s PCs</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Services</a>
+      <a href="refurb.html">Refurb PCs</a>
+      <a href="sell.html" class="cta-btn">Sell to Us</a>
+    </nav>
+    <div class="profile-menu">
+      <img src="images/default-user.png" alt="User" id="profile-icon"/>
+      <div class="dropdown" id="dropdown-menu">
+        <a href="login.html" id="sign-in-option">Sign in</a>
+        <a href="#" id="dashboard-option" class="hidden">My Dashboard</a>
+        <a href="#" id="profile-option" class="hidden">My Profile</a>
+        <a href="#" id="orders-option" class="hidden">My Orders</a>
+        <a href="#" id="sign-out-option" class="hidden">Sign out</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero hero-split">
+    <div class="hero-copy">
+      <h1 class="headline">Repair. Refurbish. Re‑ignite performance.</h1>
+      <p class="subhead">Pro PC repairs, smart flips, and cash offers for your old rigs — fast, transparent, and premium‑grade.</p>
+      <div class="hero-actions">
+        <a href="services.html" class="cta-btn large">Explore Services</a>
+        <a href="sell.html" class="ghost-btn large">Get an Offer</a>
+      </div>
+      <div class="trustbar">
+        <span>Zero hidden fees</span>
+        <span>90‑day refurb warranty</span>
+        <span>Same‑day diagnostics</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="glow orb orb-1"></div>
+      <div class="glow orb orb-2"></div>
+      <div class="pc-stack">
+        <img src="PC1.png" alt="Refurb Gaming PC" class="stack-img tilt">
+        <img src="images/sample-pc-2.jpg" alt="Clean Cable Management" class="stack-img tilt-delay">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section class="tiles">
+      <div class="tile card hover-lift">
+        <div class="icon-badge">🛠️</div>
+        <h3>Repairs & Upgrades</h3>
+        <p>Thermal issues, rebuilds, GPU/CPU swaps, storage migrations, Windows recovery, and more.</p>
+        <a class="link" href="services.html">See all services →</a>
+      </div>
+      <div class="tile card hover-lift">
+        <div class="icon-badge">♻️</div>
+        <h3>Refurb PCs</h3>
+        <p>Cleaned, stress‑tested, and optimized. Every build ships with a 90‑day warranty.</p>
+        <a class="link" href="refurb.html">Shop refurb →</a>
+      </div>
+      <div class="tile card hover-lift">
+        <div class="icon-badge">💸</div>
+        <h3>Sell Your PC</h3>
+        <p>Instant quotes. Fair prices. We’ll pick up locally or provide prepaid shipping.</p>
+        <a class="link" href="sell.html">Get an instant offer →</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Featured Refurbs</h2>
+      <div class="grid">
+        <div class="product card hover-zoom">
+          <img src="images/sample-pc-1.jpg" alt="Ryzen 5 + RTX 3060" />
+          <div class="product-info">
+            <h4>Ryzen 5 + RTX 3060</h4>
+            <p class="muted">1080p/1440p sweet spot build</p>
+            <div class="price-row">
+              <span class="price">$799</span>
+              <button class="btn small">Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="product card hover-zoom">
+          <img src="images/sample-pc-2.jpg" alt="i5 + RTX 3070" />
+          <div class="product-info">
+            <h4>i5 + RTX 3070</h4>
+            <p class="muted">High FPS esports ready</p>
+            <div class="price-row">
+              <span class="price">$949</span>
+              <button class="btn small">Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="product card hover-zoom">
+          <img src="images/sample-pc-3.jpg" alt="Silent Creator Build" />
+          <div class="product-info">
+            <h4>Silent Creator Build</h4>
+            <p class="muted">Quiet power for editing</p>
+            <div class="price-row">
+              <span class="price">$1,099</span>
+              <button class="btn small">Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="glass footer">
+    <div class="footer-grid">
+      <div>
+        <div class="brand mini">
+          <img src="images/logo.png" alt="ThinkLink’s PCs" class="logo small"/>
+          <span class="brand-name">ThinkLink’s PCs</span>
+        </div>
+        <p class="muted">Performance revived. Value maximized.</p>
+      </div>
+      <div>
+        <h5>Explore</h5>
+        <a href="services.html">Services</a>
+        <a href="refurb.html">Refurbs</a>
+        <a href="sell.html">Sell to Us</a>
+      </div>
+      <div>
+        <h5>Account</h5>
+        <a href="login.html">Sign in</a>
+        <a href="register.html">Create account</a>
+      </div>
+    </div>
+    <p class="tiny muted">© 2025 ThinkLink’s PCs. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
